@@ -7,20 +7,32 @@ ol li {
 }
 .exam {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-style: solid;
+	margin: 50px;
+	padding: 25px;
+	border-radius: 40px;
+	text-align:left;
+	/*
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+	*/
 }
 #table {
     line-height:200%
+	color: green;
 }
 footer {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left:  30px;
-    background: #444;
+    background: #888;
     color: white;
 }
 a.foo:hover {
   text-decoration-color: black;
-  color: black;
+  color: red;
 }
 a.foo {
   text-decoration-color: white;
